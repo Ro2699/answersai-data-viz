@@ -5,7 +5,7 @@ This is a front-end dashboard project built with React and TypeScript. It includ
 The project is also deployed and accessible at:  
 **https://answersai-data-viz.onrender.com**
 
-I completed this project in approximately 6 hours.
+I completed this project in approximately 5.5 hours.
 
 ## Tech Stack
 
