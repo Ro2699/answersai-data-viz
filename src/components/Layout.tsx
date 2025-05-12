@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import Sidebar from './Sidebar';
 import TabHeader from './TabHeader';
 import SlideOver from './SlideOver'; // SlideOver is mounted here to be globally accessible
