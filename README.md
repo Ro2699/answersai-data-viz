@@ -1,6 +1,9 @@
 # AnswersAi Frontend Engineer Take-Home
 
-This is a frontend dashboard project built with React and TypeScript. It includes data visualization, user interactions, and Firebase authentication. The design and features are based on the Figma file provided in the take-home assignment.
+This is a front-end dashboard project built with React and TypeScript. It includes data visualization, user interactions, and Firebase authentication. The design and features are based on the Figma file provided in the take-home assignment.
+
+The project is also deployed and accessible at:  
+**https://answersai-data-viz.onrender.com**
 
 I completed this project in approximately 6 hours.
 
