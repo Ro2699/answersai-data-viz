@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base style adjustments */
+:root {
+  color-scheme: dark;
+}
+
+/* Body defaults */
+body {
+  @apply bg-[#111112] text-white text-sm antialiased font-sans;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold text-white;
+}
+
+/* Links */
+a {
+  @apply text-blue-500 hover:underline;
+}
+
+/* Buttons */
+button {
+  @apply rounded-md px-4 py-2 font-medium transition-colors bg-[#1c1c1e] hover:bg-[#2c2c2e] text-white border border-transparent;
+}
+
+/* Inputs */
+input, select {
+  @apply bg-[#1c1c1e] text-white border border-[#2c2c2e] rounded-md px-3 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* Scrollbar styling (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 4px;
+}
+
+/* ---Tooltip Animation (fade-in effect) --- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out;
+}
